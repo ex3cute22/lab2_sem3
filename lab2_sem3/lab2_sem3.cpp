@@ -55,7 +55,7 @@ void Read(car* q) {
 }
 
 void Display(car* q) {
-    printf("%-15s %-15s %-5.1f %-4d %-10s %-15s %-6d\t %-16d\n", q->marka, q->model, q->engine, q->power, q->transmission, q->color, q->year, q->price);
+    printf("%-12s %-12s %-5.1fл. %-4dл.с. %-10s %-15s %-6dг.\t %-16dрублей\n", q->marka, q->model, q->engine, q->power, q->transmission, q->color, q->year, q->price);
 }
 
 
